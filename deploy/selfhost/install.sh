@@ -5,7 +5,7 @@ SCRIPT_DIR=$PWD
 SERVICE_FOLDER=plane-app
 PLANE_INSTALL_DIR=$PWD/$SERVICE_FOLDER
 export APP_RELEASE="stable"
-export DOCKERHUB_USER=makeplane
+export DOCKERHUB_USER=bpjsrb
 export PULL_POLICY=${PULL_POLICY:-if_not_present}
 
 CPU_ARCH=$(uname -m)
